@@ -3,7 +3,6 @@ const client = require("discord.js")
 const db = require("quick.db")
 const ayarlar = require('../ayarlar.json');
 module.exports = async message => {
-    let prefix = ayarlar.prefix;
   
     if (db.has(`profix_${message.guild.id}`) === true) {
       prefix = db.fetch(`profix_${message.guild.id}`)
