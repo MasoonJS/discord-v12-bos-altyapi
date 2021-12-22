@@ -1,1 +1,0 @@
-# discord-v12-bos-altyapi
