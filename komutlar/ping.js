@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const db = require('quick.db');
 
 exports.run = async (app, message, client) => {
   if(message.channel.type === "dm") return;
